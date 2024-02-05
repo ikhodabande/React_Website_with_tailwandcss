@@ -6,7 +6,6 @@ function App() {
   return (
     <div>
       <Topbar/>
-      <h1>WEEKAWAY</h1>
     </div>
   );
 }

@@ -1,14 +1,23 @@
 import React from 'react';
-// import {AiFillphone, AiOutlineClockCircle} from 'react-icons/ai';
-// import {BschatSquareDots} from 'react-icons/bs';
+import {AiFillPhone, AiOutlineClockCircle} from 'react-icons/ai';
+import {BsChatSquareDots} from 'react-icons/bs';
 
 const Topbar = () => {
   return (
-    <div>
-      <div>
-        {/* <BschatSquareDots/>  */}
-
+    <div className='flex justify-between items-center px-4 py-2'>
+      <div className='flex items-center'>
+        <BsChatSquareDots size={30} className='text-[var(--primary-dark)]'  /> 
+        <h1>WEEKAWAY</h1>
       </div>
+        <div>
+          <AiOutlineClockCircle />
+          <p>9AM - 5AM</p>
+        </div>
+        <div>
+          <AiFillPhone/>
+          <p>1-888-817-1234</p>
+        </div>
+        <button>Get a free Quote</button>
     </div>
   )
 }
