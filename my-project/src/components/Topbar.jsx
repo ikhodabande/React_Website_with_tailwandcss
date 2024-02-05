@@ -9,15 +9,17 @@ const Topbar = () => {
         <BsChatSquareDots size={30} className='text-[var(--primary-dark)] mr-2'  /> 
         <h1 className='text-xl font-bold text-gray-700'>WEEKAWAY</h1>
       </div>
-        <div>
+      <div className='flex'>
+        <div className='hidden md:flex items-center px-6'>
           <AiOutlineClockCircle />
           <p>9AM - 5AM</p>
         </div>
-        <div>
+        <div  className='hidden md:flex items-center px-6'>
           <AiFillPhone/>
           <p>1-888-817-1234</p>
         </div>
         <button>Get a free Quote</button>
+    </div>
     </div>
   )
 }
