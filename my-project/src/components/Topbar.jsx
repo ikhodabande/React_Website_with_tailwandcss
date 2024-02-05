@@ -11,12 +11,12 @@ const Topbar = () => {
       </div>
       <div className='flex'>
         <div className='hidden md:flex items-center px-6'>
-          <AiOutlineClockCircle />
-          <p>9AM - 5AM</p>
+          <AiOutlineClockCircle  size={28} className='mr-2 text-[var(--primary-dark)]'/>
+          <p className='text-sm text-gray-700'>9AM - 5AM</p>
         </div>
         <div  className='hidden md:flex items-center px-6'>
-          <AiFillPhone/>
-          <p>1-888-817-1234</p>
+          <AiFillPhone size={28} className='mr-2 text-[var(--primary-dark)]'/>
+          <p className='text-sm text-gray-700'>1-888-817-1234</p>
         </div>
         <button>Get a free Quote</button>
     </div>
