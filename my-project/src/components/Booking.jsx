@@ -3,6 +3,7 @@ import React from 'react'
 function Booking() {
   return (
     <div>
+      <form>
       <div>
         <label>Destination</label>
         <select name="" id="">\
@@ -26,6 +27,7 @@ function Booking() {
         <label>Search</label>
         <button>Rates & Availabilities</button>
       </div>
+      </form>
     </div>
   )
 }
