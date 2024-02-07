@@ -8,11 +8,11 @@ function Hero() {
       className='w-full h-full object-cover'
       />
 
-    <div className='max-w-[1140px] w-full md:-[50%] max-width-[600px] h-full flex flex-col text-white p-4'>
-      <div>
+    <div className='max-w-[1140px] m-auto'>
+      <div className= 'absolute top-[40%] w-full md:-[50%] max-width-[600px] h-full flex flex-col text-white p-4'>
 
-        <h1>Take your special offers</h1>
-        <h2>happy trips</h2>
+        <h1 className='font-bold text-4xl'>Take your special offers</h1>
+        <h2 className='font-bold text-4xl py-4 italic'>happy trips</h2>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores corporis libero cum ullam,
            rerum praesentium architecto earum aut reprehenderit! Nihil.</p>
