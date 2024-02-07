@@ -12,6 +12,20 @@ function Booking() {
         <option>Cozumel</option>
         </select>
       </div>
+      <div>
+        <div>
+          <label>Check-In</label>
+          <input type="date" />
+        </div>
+        <div>
+          <label>Check-Out</label>
+          <input type="date" />
+        </div>
+      </div>
+      <div>
+        <label>Search</label>
+        <button>Rates & Availabilities</button>
+      </div>
     </div>
   )
 }
