@@ -1,6 +1,6 @@
 import React from 'react';
 
-function activities() {
+function Activities() {
   return (
     <div>
       <div>
@@ -19,4 +19,4 @@ function activities() {
   )
 }
 
-export default activities
+export default Activities
