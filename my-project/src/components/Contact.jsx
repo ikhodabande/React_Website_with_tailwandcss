@@ -3,7 +3,7 @@ import contact from '../assetes/contact.avif';
 
 function Contact() {
   return (
-    <div id='contact' className='max-w-[1140px] m-auto w-full p-4 py-16'>
+    <div id='contacts' className='max-w-[1140px] m-auto w-full p-4 py-16'>
       <h2 className='text-center text-gray-700'>Send us a message</h2>
       <p className='text-center text-gray-700 py-2'>We're standing by!</p>
       <div className='grid md:grid-cols-2'>
