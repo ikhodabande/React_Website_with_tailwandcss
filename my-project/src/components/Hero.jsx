@@ -4,8 +4,8 @@ import backGround from '../assetes/bg.avif';
 function Hero() {
   return (
     <div className='w-full h-[90vh] '>
-      <img src={backGround} alt="/" 
-      className='w-full h-full object-cover'
+      <img  src={backGround} alt="/" 
+      className='w-full h-full object-cover kenburns-top -z-10'
       />
 
     <div className='max-w-[1140px] m-auto'>

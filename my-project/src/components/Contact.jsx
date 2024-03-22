@@ -8,7 +8,7 @@ function Contact() {
       <p className='text-center text-gray-700 py-2'>We're standing by!</p>
       <div className='grid md:grid-cols-2'>
       <img 
-      className='w-full md:h-full object-cover p-2 max-h-[500px] h-[200px]'
+      className='w-full md:h-full object-cover p-2 max-h-[500px] h-[200px] '
       src={contact} alt="" />
       <form>
         <div className='grid grid-col-2'>

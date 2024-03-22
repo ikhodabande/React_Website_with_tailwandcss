@@ -10,7 +10,7 @@ function Activities() {
         className='w-full h-full border-4 object-cover relative border-white shadow-lg '
         src={activitiesImg} alt="/" />
       </div>
-      <div className='relative p-4'>
+      <div className='relative p-4 '>
         <h2 className='absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold'>Resorts</h2>
         <img
         className='w-full h-full border-4 object-cover relative border-white shadow-lg '
