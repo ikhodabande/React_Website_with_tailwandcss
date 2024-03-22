@@ -20,16 +20,16 @@ const Navbar = () => {
   return (
     <div className='w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white bg-gray-700/80'>
       <ul className='hidden sm:flex px-4'>
-        <li> 
+        <li className='hover:-translate-y-1 duration-200'> 
           <a href="#">Home</a>
         </li>
-        <li>
+        <li className='hover:-translate-y-1 duration-200'>
           <a href="#gallary">Gallary</a>
         </li>
-        <li>
+        <li className='hover:-translate-y-1 duration-200'>
           <a href="#deals">Deals</a>
         </li>
-        <li>
+        <li className='hover:-translate-y-1 duration-200'>
           <a href="#contacts">Contacts</a>
         </li>
       </ul> 
